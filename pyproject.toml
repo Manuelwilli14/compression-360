@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omni360"
+version = "0.1.0"
+description = "Evaluation of 360-degree image coding (projections, spherical metrics, BD-rate) with HEVC, after Yu et al., ISMAR 2015"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["omni360"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

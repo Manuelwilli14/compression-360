@@ -1,0 +1,8 @@
+# Core: projections, metrics, BD-rate, HEVC (x265) experiments
+numpy>=1.24
+opencv-python-headless
+scipy
+matplotlib
+pandas
+imageio-ffmpeg          # bundled FFmpeg with libx265, used if ffmpeg is not on PATH
+pytest
